@@ -56,14 +56,14 @@ describe('Work with basic element',() =>{
             .should('not.be.checked')
     })
 
-    it.only('ComboBox', ()=> {
+    it('ComboBox', ()=> {
         cy.get('[data-test="dataEscolaridade"]')
             .select ('Superior')
             .should('have.value','superior')
         //TODO Validar as opções do combo
     })
 
-    it.only('Combo Multiplo', () => {
+    it('Combo Multiplo', () => {
         cy.get('[data-testid="dataEsportes"]')
             .select(['natacao', 'Corrida', 'nada'])
 

@@ -11,6 +11,11 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "cypress": "^13.6.6"
+    "cypress": "^13.6.6",
+    "cypress-xpath": "^2.0.1",
+    "faker": "^5.5.3"
+  },
+  "devDependencies": {
+    "@types/faker": "^6.6.9"
   }
 }
